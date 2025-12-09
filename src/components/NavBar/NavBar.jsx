@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from 'react';
-import './Navbar.css';
+import './NavBar.css';
 import { Link } from "react-router";
 import { AuthContext } from "../../context/AuthContext";
 import { initNavbarBehavior } from './Navbar.js';
