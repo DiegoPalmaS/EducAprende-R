@@ -28,9 +28,9 @@ export const router = createBrowserRouter(
             <Route path="/juegos/timelgame" element={<TimeLGame />} />
             <Route path="/about" element={<About />} />     
             <Route path="/login" element={<Login />} />
-            <Route path="/registro" element={< Register />} />
-            <Route path="/perfil"  element={<PrivateRoute>< Progreso /></PrivateRoute> } />
-            <Route path="*"  element={< NotFound />} />
+            <Route path="/registro" element={<Register />} />
+            <Route path="/perfil" element={<PrivateRoute><Progreso /></PrivateRoute>} />
+            <Route path="*" element={<NotFound />} />
         </Route>
     )
 )
