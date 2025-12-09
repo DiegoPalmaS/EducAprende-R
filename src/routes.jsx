@@ -1,17 +1,17 @@
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom'
 import TimeLGame from './components/Games/TimeLGame/TimeLGame.jsx'
-import Index from './pages/Index.jsx'
-import Categories from './pages/Categories/Categories.jsx'
+import Index from './Pages/Index.jsx'
+import Categories from './Pages/Categories/Categories.jsx'
 import CategoryRouter from './components/CategoryRouter.jsx'
-import About from './pages/About/About.jsx'
-import Login from './pages/Login/Login.jsx'
-import Register from './pages/Register/Register.jsx'
-import Progreso from './pages/Progreso/Progreso.jsx'
-import NotFound from './pages/NotFound/NotFound.jsx'
+import About from './Pages/About/About.jsx'
+import Login from './Pages/Login/Login.jsx'
+import Register from './Pages/Register/Register.jsx'
+import Progreso from './Pages/Progreso/Progreso.jsx'
+import NotFound from './Pages/NotFound/NotFound.jsx'
 import PrivateRoute from "./components/PrivateRoute";
 import AuthProvider from './context/AuthContext' 
 import { LogrosProvider } from './context/LogrosContext.jsx'
-import Layout from './pages/Layout.jsx'
+import Layout from './Pages/Layout.jsx'
 
 
 // en la constante router queda defino el enrutador
