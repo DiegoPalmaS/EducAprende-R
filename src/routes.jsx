@@ -8,8 +8,8 @@ import Login from './Pages/Login/Login.jsx'
 import Register from './Pages/Register/Register.jsx'
 import Progreso from './Pages/Progreso/Progreso.jsx'
 import NotFound from './Pages/NotFound/NotFound.jsx'
-import PrivateRoute from "./components/PrivateRoute";
-import AuthProvider from './context/AuthContext' 
+import PrivateRoute from "./components/PrivateRoute.jsx"
+import AuthProvider from './context/AuthContext.jsx' 
 import { LogrosProvider } from './context/LogrosContext.jsx'
 import Layout from './Pages/Layout.jsx'
 
