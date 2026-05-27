@@ -1,5 +1,5 @@
 import './Main.css';
-import imgGeneration from '../../assets/img/Generation.png'
+import imgGeneration from '../../../../assets/img/Generation.png'
 
 function Main() {
   return (

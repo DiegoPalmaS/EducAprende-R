@@ -1,6 +1,6 @@
 import './Header.css'
 import { Link } from "react-router";
-import imgHero from '../../assets/img/img_hero.png'
+import imgHero from '../../../../assets/img/img_hero.png'
 
 function Header() {
   return (
