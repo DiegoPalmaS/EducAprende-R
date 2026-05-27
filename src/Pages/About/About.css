@@ -29,6 +29,9 @@ h2 {
 /* container */
 .developer-person {
   transition: transform 0.3s ease, filter 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* positions */
 .fernanda{
@@ -53,7 +56,10 @@ h2 {
 }
 
 .developer-img {
-  width: 200%;
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  display: block;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
