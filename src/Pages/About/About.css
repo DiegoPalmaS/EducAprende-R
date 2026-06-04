@@ -7,7 +7,7 @@
 .developers-container {
 
   display: flex;
-  justify-content: start;
+  justify-content: center;
   padding-top: 50px;
   overflow: hidden;
   position: relative;
@@ -56,8 +56,7 @@ h2 {
 }
 
 .developer-img {
-  width: 100%;
-  max-width: 160px;
+  width: 180%;
   height: auto;
   display: block;
   object-fit: cover;

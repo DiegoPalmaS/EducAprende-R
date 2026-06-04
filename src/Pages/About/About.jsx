@@ -37,7 +37,7 @@ function About() {
               <img src={imgMargo} className="developer-img" alt="Margarita" />
             </div>
           </div>
-          <div className="col-md-12 col-lg-4 align-self-center info-developers">
+          <div className="col-md-12 col-lg-4 align-self-center info-developers mb-3">
             <h2 className="text-center my-4" id="nameAbout">¿Quienes somos?</h2>
             <div className="container about-details">
               <p className="p-4" id="detailAbout">
